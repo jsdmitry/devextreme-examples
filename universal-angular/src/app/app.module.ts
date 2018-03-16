@@ -12,6 +12,7 @@ import { VizComponent } from './viz/viz.component';
 import { EditorsComponent } from './editors/editors.component';
 import { ActionsAndListsComponent } from './actions-and-lists/actions-and-lists.component';
 import { DialogsAndNotificationsComponent } from './dialogs-and-notifications/dialogs-and-notifications.component';
+import { FormsAndMultiPurposeComponent } from './forms-and-multi-purpose/forms-and-multi-purpose.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { DialogsAndNotificationsComponent } from './dialogs-and-notifications/di
     VizComponent,
     EditorsComponent,
     ActionsAndListsComponent,
-    DialogsAndNotificationsComponent
+    DialogsAndNotificationsComponent,
+    FormsAndMultiPurposeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
